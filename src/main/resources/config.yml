@@ -1,0 +1,15 @@
+database:
+  filename: blocklookup.db
+  busyTimeoutMs: 5000
+  writeBatchSize: 250
+  flushIntervalTicks: 20
+
+rollback:
+  defaultRadius: 15
+  maxActionsPerCommand: 20000
+  applyPerTick: 200
+  loadChunks: false
+
+lookup:
+  defaultMinutes: 30
+  defaultLimit: 20
