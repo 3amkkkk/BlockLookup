@@ -1,6 +1,6 @@
 # BlockLookup
 
-BlockLookup is een snelle logging plugin voor Paper/Spigot servers waarmee je blokplaatsingen, blokbreuken en chatberichten kunt terugvinden en (deels) terugdraaien. Ontworpen voor grote servers: writes gaan async in batches naar SQLite en rollback/restore wordt tick-based toegepast om lag spikes te beperken.
+BlockLookup is een snelle logging plugin voor Paper/Spigot servers waarmee je blokplaatsingen, blokbreukjes en chatberichten kunt terugvinden en (deels) terugdraaien. Ontworpen voor grote servers: writes gaan async in batches naar SQLite en rollback/restore wordt tick-based toegepast om lag spikes te beperken.
 
 ## Features
 
